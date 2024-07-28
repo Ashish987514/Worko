@@ -1,0 +1,388 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#topbar{
+    height: 7%;
+    width:100%;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 40px 10000px rgb(255, 255, 255);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#want{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(111, 111, 111);
+    font-size: 17px;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 16px;
+    left: 30%;
+
+}
+#hire{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(111, 111, 111);
+    font-size: 17px;
+    margin-bottom: 5px;
+    position: relative;
+    left: 40%;
+    top: 9px;
+    
+}
+#want:hover{
+    color: rgb(222, 233, 255);
+    text-shadow:0px 0px 15px rgb(188, 217, 255);
+}
+
+#hire:hover{
+    color: rgb(199, 218, 255);
+    text-shadow:0px 0px 15px rgb(188, 217, 255);
+}
+#worko{
+    color: azure;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     position: relative; 
+     top:-4px; 
+     left:40px; 
+    font-size: 24px;
+}
+#worko:hover{
+    font-size: 25px;
+}
+#signin{
+    height: 36px;
+    width: 78px;
+    color: azure;
+    border: 1px solid black;
+    background-color: rgb(98, 140, 248);
+    border-radius: 40px;
+    position: absolute;
+    right: 17px;
+    top:8px;
+}
+#signin:hover{
+    box-shadow:0px 0px 70px rgba(69, 175, 255, 1);
+    scale: 1.1;
+}
+#loww{
+    height: 10px;
+    width: 30px;
+    color: blue;
+    position: absolute;
+    left: 50%;
+    top: 24px;
+}
+#lowh{
+    position: absolute;
+    left: 50%;
+    top: 16px;
+}
+#photo1 {
+    height: 150%;
+    width: 100%;
+    background-image: url("/imgbg.jpg");
+    background-size:cover ;
+    position: absolute;
+    z-index: -1;
+    top: -280px;
+    left: 0px;
+}
+#curve{
+    height: 30vh;
+    width: 100%;
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    top: 660px;
+    left: 0px;
+    z-index: +1;
+}
+#lang{
+    font-size: 17px; 
+    width:90px ;
+    height: 26px;
+     border-radius: 5px; 
+     color: azure;
+      background-color: black;
+      position: absolute;
+      right: 70px; top: 13px; z-index: +1;
+}
+#lang:hover{
+    scale: 1.02;
+    background-color: rgb(28, 28, 28);
+}
+#section{
+    font-size: 18px;
+    height: 30px;
+    width: 165px;
+    color: azure;
+    background-color: black;
+    border-radius: 7px;
+    border-color: rgb(79, 79, 79);
+    position: absolute;
+    z-index: +1;
+    top: 12px;
+    left: 400px;
+}
+#section:hover{
+    scale: 1.02;
+}
+#profileicon{
+    font-size: 33px;
+    position: absolute;
+    color: rgb(139, 139, 139);
+    background-color: black;
+    top: 8px;
+    right: 15px;
+    z-index: +1;
+}
+#profileicon:hover{
+    color: rgb(194, 194, 194);
+}
+#menu{
+    color: azure;
+     font-size: 28px;
+     margin: 10px 10px;
+}
+#menu:hover{
+    scale: 1.08;
+}
+#barc{
+    width: 200px;
+    height: 8px;
+    background-color: #3a3a3a;
+    border-radius:10px ;
+    position: absolute;
+    z-index: +1;
+    top: 30px;
+    right: 200px;
+
+}
+#complete{
+    font-size: 13px;
+    color: rgb(175, 175, 175);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    z-index: +2;
+    top: -3px;
+    right: 358px;
+}
+#light{
+    width: 50px;
+    height: 8px;
+    background-color: #8956ff;
+    border-radius:10px ;
+    position: absolute;
+    z-index: +1;
+    top: 0px;
+    right: 150px;
+}
+#percentage{
+    font-size: 13px;
+    color: rgb(225, 225, 225);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: -1px;
+    right: 200px;
+    z-index: +1;
+}
+#popup{
+    height: 79%;
+    width: 33%;
+    background-color: white;
+    border-radius: 17px;
+    border: 1px solid black;
+    position: fixed;
+    z-index: +2;
+    top: 100px;
+    left: 540px;
+}
+#wantjob{
+    height: 30px;
+    width: 38%;
+    color: azure;
+    background-color:rgb(29, 29, 29) ;
+    border: 1px solid rgb(84, 84, 84);
+    text-align: center;
+    padding-top:7px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    top: 17px;
+    left: 70px;
+}
+#tohire{
+    height: 30px;
+    width: 38%;
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255) ;
+    border: 1px solid rgb(84, 84, 84);
+    text-align: center;
+    padding-top:7px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    top: 17px;
+    left: 244px;
+}
+#wantjob:hover{
+    background-color: rgb(0, 0, 0);
+    scale: 1.02;
+
+}
+#tohire:hover{
+    background-color: rgb(234, 234, 234);
+    scale: 1.02;
+
+}
+#namep{
+    font-size: 13px;
+
+    position: absolute;
+    top:80px;
+    left:75px ;
+}
+#name{
+    height: 30px;
+    width: 68%;
+    font-size: 15px;
+    padding-left: 10px;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 13px;
+    position: absolute;
+    top: 120px;
+    left: 70px;
+}
+#mobilenop{
+    font-size: 13px;
+    position: absolute;
+    top:160px;
+    left:75px ;
+}
+#mobileno{
+    height: 30px;
+    width: 68%;
+    padding-left: 10px;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 13px;
+    position: absolute;
+    top: 200px;
+    left: 70px;
+}
+#placetoworkp{
+    font-size: 12px;
+    position: absolute;
+    top:238px;
+    left:75px ;
+}
+#placetowork{
+    height: 25px;
+    width: 36%;
+    padding-left: 30px;
+    border-radius: 13px;
+    position: absolute;
+    top: 270px;
+    left: 70px;
+}
+.workop{
+    color: azure;
+    background-color: black;
+}
+#experiencep{
+    font-size: 12px;
+    position: absolute;
+    top:305px;
+    left:75px ;
+}
+#experience{
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    padding-left: 17px;
+    position: absolute;
+    top: 336px;
+    left: 70px;
+}
+.exop{
+    color: azure;
+    background-color: black;
+
+}
+#levelp{
+    font-size: 12px;
+    position: absolute;
+    top:370px;
+    left:75px ;
+}
+#level{
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    padding-left: 15px;
+    position: absolute;
+    top: 400px;
+    left: 70px;
+}
+.levelop{
+    color: azure;
+    background-color: black;
+
+}
+#otpp{
+    font-size: 12px;
+    position: absolute;
+    top:240px;
+    left:270px;
+}
+#otp{
+    height: 25px;
+    width: 23%;
+    padding-left: 25px;
+    letter-spacing: 20px;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 13px;
+    position: absolute;
+    top: 268px;
+    left: 260px;
+}
+#sendotp{
+    font-size: 12px;
+    color: rgb(63, 127, 247);
+    position: absolute;
+    top: 198px;
+    left: 360px;
+}
+#workp{
+    font-size: 12px;
+    position: absolute;
+    top:430px;
+    left:75px;
+}
+#work{
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    padding-left: 15px;
+    position: absolute;
+    top: 460px;
+    left: 70px;
+}
+.workop{
+    color: azure;
+    background-color: black;
+
+}
+#popupsubmit{
+    height: 35px;
+    width: 420px;
+    background-color: #8956ff;
+    color: azure;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+    z-index: +2;
+}
